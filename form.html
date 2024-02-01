@@ -19,9 +19,13 @@ Description : A simple HTML file for form tag.
         <fieldset>
             <legend>Personal Information</legend>
             <!-- Add a label and input field for 'Name' here -->
+            <label for="Name">Name:</label><br>
+            <input type="Name" id="Name" name="Name"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br>
             <!-- Add a label and input field for 'Password' here, ensure to use the correct type for password fields -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
         </fieldset>
 
         <fieldset>
@@ -30,11 +34,23 @@ Description : A simple HTML file for form tag.
 			<input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <!-- Create radio buttons for 'Female', and 'Other' gender options -->
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
 	
             <label for="fruits">Choose a fruit:</label><br>
             <select id="fruits" name="fruits">
 				<option value="apple">Apple</option>
                 <!-- Add options for various fruits like Banana, Orange, etc. (At least 10 fruits) -->
+                <option value="pomegranate">pomegranate</option>
+                <option value="grapefruit">grapefruit</option>
+                <option value="orange">orange</option>
+                <option value="grape">grape</option>
+                <option value="cherry">cherry</option>
+                <option value="pear">pear</option>
+                <option value="blackberry">blackberry</option>
+                <option value="rasberry">rasberry</option>
+                <option value="strawberry">strawberry</option>
+                <option value="banana">banana</option>
             </select><br>
 			<!-- Add some attributes to select tag that changes it from a drop menu to a scrollable list.-->
         </fieldset>
